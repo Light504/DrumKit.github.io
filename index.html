@@ -1,1 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drum Kit</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Rowdies:wght@300;400;700&family=Teko:wght@300..700&display=swap');
+        </style>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Rowdies:wght@300;400;700&family=Rubik:ital,wght@0,300..900;1,300..900&family=Teko:wght@300..700&display=swap');
+        </style>
+</head>
+<body>
+    <h1>Drum Kit</h1>
+    <div class="keyboard">
+        <div class="container">
+            <div data-key='65' class="keys">
+               <kbd>A</kbd>
+            </div>
+            <div data-key='83' class="keys">
+                <kbd>S</kbd>
+            </div>
+            <div data-key='68' class="keys">
+                <kbd>D</kbd>
+            </div>
+            <div data-key='70' class="keys">
+                <kbd>F</kbd>
+            </div>
+            <div data-key='71' class="keys">
+                <kbd>G</kbd>
+            </div>
+            <div data-key='72' class="keys">
+                <kbd>H</kbd>
+            </div>
+            <div data-key='73' class="keys">
+                <kbd>J</kbd>
+            </div>
+        </div>
+    </div>
+ <audio data-key='65' src="boom.wav"></audio>
+ <audio data-key='83' src="clap.wav"></audio>
+ <audio data-key='68' src="hihat.wav"></audio>
+ <audio data-key='70' src="kick.wav"></audio>
+ <audio data-key='71' src="openhat.wav"></audio>
+ <audio data-key='72' src="snare.wav"></audio>
+ <audio data-key="73" src="ride.wav"></audio>
+    <script src="script.js"></script>
+</body>
+</html>
 
