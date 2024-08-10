@@ -58,24 +58,3 @@ h1{
     background-color: #D0B8A8;
 }
 
-#pic1{
-    position: absolute;
-    height: 350px;
-    width: 350px;
-}
-
-#pic2{
-    position: absolute;
-    height: 150px;
-    width: 150px;
-    top: 70%;
-    left: 80%;
-}
-
-#pic3{
-    position: absolute;
-    height: 60%;
-    width: 50%;
-    top: 50%;
-}
-
